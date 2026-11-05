@@ -9,8 +9,8 @@ import {
   MarkerType,
 } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
-import loopsData from '@/data/loops.json';
-import stakeholdersData from '@/data/stakeholders.json';
+import loopsData from '../data/loops.json';
+import stakeholdersData from '../data/stakeholders.json';
 
 interface Props {
   initialNodes: any[];
