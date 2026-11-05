@@ -1,10 +1,10 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import nodesData from '@/data/nodes.json';
-import edgesData from '@/data/edges.json';
+import nodesData from '../data/nodes.json';
+import edgesData from '../data/edges.json';
 
-const CausalLoopMap = dynamic(() => import('@/components/CausalLoopMap'), {
+const CausalLoopMap = dynamic(() => import('../components/CausalLoopMap'), {
   ssr: false,
   loading: () => (
     <div
