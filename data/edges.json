@@ -12,7 +12,6 @@
   { "id": "e_medout_wait", "source": "use_of_mediation_outside_court", "target": "length_of_waiting_period_between_legal_actions", "label": "-", "data": { "sign": "-" } },
   { "id": "e_wait_postalwork", "source": "length_of_waiting_period_between_legal_actions", "target": "workload_of_postal_service", "label": "+", "data": { "sign": "+" } },
   { "id": "e_postalwork_timedeliv", "source": "workload_of_postal_service", "target": "time_taken_to_deliver", "label": "+", "data": { "sign": "+" } },
-
   { "id": "e_wait_dishon", "source": "length_of_waiting_period", "target": "share_of_dishonoured_cheques_filed_within_limitations", "label": "-", "data": { "sign": "-" } },
   { "id": "e_dishon_accept", "source": "share_of_dishonoured_cheques_filed_within_limitations", "target": "share_of_filings_accepted_at_first_submission", "label": "+", "data": { "sign": "+" } },
   { "id": "e_accept_refile", "source": "share_of_filings_accepted_at_first_submission", "target": "rate_of_refiling_due_to_errors", "label": "-", "data": { "sign": "-" } },
@@ -25,7 +24,6 @@
   { "id": "e_burden_backlog", "source": "burden_on_court_staff", "target": "scrutiny_backlog", "label": "+", "data": { "sign": "+" } },
   { "id": "e_backlog_time", "source": "scrutiny_backlog", "target": "time_taken_in_scrutiny", "label": "+", "data": { "sign": "+" } },
   { "id": "e_backlog_cleared", "source": "scrutiny_backlog", "target": "share_of_cases_cleared_at_scrutiny", "label": "-", "data": { "sign": "-" } },
-
   { "id": "e_summ_work", "source": "share_of_summons_effectively_served", "target": "workload_of_postal_service", "label": "-", "data": { "sign": "-" } },
   { "id": "e_summ_rec", "source": "share_of_summons_effectively_served", "target": "likelihood_accused_receives_summons", "label": "+", "data": { "sign": "+" } },
   { "id": "e_rec_addr", "source": "likelihood_accused_receives_summons", "target": "accuracy_of_verified_address", "label": "+", "data": { "sign": "+" } },
@@ -35,7 +33,6 @@
   { "id": "e_appear_hear", "source": "chances_accused_appears_in_court", "target": "number_of_hearing_occurs", "label": "+", "data": { "sign": "+" } },
   { "id": "e_hear_proceed", "source": "number_of_hearing_occurs", "target": "shared_of_scheduled_hearings_that_proceed", "label": "+", "data": { "sign": "+" } },
   { "id": "e_hear_summclose", "source": "number_of_hearing_occurs", "target": "share_of_summons_effectively_served", "label": "+", "data": { "sign": "+" } },
-
   { "id": "e_proceed_refmed", "source": "shared_of_scheduled_hearings_that_proceed", "target": "share_of_cases_referred_to_mediation", "label": "+", "data": { "sign": "+" } },
   { "id": "e_refmed_medcell", "source": "share_of_cases_referred_to_mediation", "target": "rate_of_dispute_resolution_mediator_cell", "label": "+", "data": { "sign": "+" } },
   { "id": "e_refmed_lok", "source": "share_of_cases_referred_to_mediation", "target": "rate_of_dispute_resolution_lok_adaalat", "label": "+", "data": { "sign": "+" } },
@@ -43,7 +40,6 @@
   { "id": "e_lok_courtmed", "source": "rate_of_dispute_resolution_lok_adaalat", "target": "mediation_through_court", "label": "+", "data": { "sign": "+" } },
   { "id": "e_courtmed_pend", "source": "mediation_through_court", "target": "case_pendancy", "label": "-", "data": { "sign": "-" } },
   { "id": "e_pend_hear", "source": "case_pendancy", "target": "number_of_hearing_occurs", "label": "-", "data": { "sign": "-" } },
-
   { "id": "e_caseload_magatt", "source": "caseload", "target": "rate_of_magistrate_attendance", "label": "-", "data": { "sign": "-" } },
   { "id": "e_caseload_compatt", "source": "caseload", "target": "rate_of_complainant_lawyer_attendance", "label": "-", "data": { "sign": "-" } },
   { "id": "e_caseload_adjcomp", "source": "caseload", "target": "ask_for_adjournment_complainant_lawyer", "label": "+", "data": { "sign": "+" } },
@@ -61,7 +57,6 @@
   { "id": "e_casepend_prep", "source": "case_pendancy", "target": "both_party_lawyer_case_preparation", "label": "+", "data": { "sign": "+" } },
   { "id": "e_prep_sched", "source": "both_party_lawyer_case_preparation", "target": "schedulability_of_magistrate_and_both_party_lawyers", "label": "+", "data": { "sign": "+" } },
   { "id": "e_sched_adjcomp", "source": "schedulability_of_magistrate_and_both_party_lawyers", "target": "ask_for_adjournment_complainant_lawyer", "label": "-", "data": { "sign": "-" } },
-
   { "id": "e_poleff_custody", "source": "police_effort_in_pursuing_the_accused", "target": "number_of_custody_cases", "label": "+", "data": { "sign": "+" } },
   { "id": "e_custody_account", "source": "number_of_custody_cases", "target": "taking_accountability", "label": "+", "data": { "sign": "+" } },
   { "id": "e_account_magdec", "source": "taking_accountability", "target": "magistrate_decision_to_escalate", "label": "-", "data": { "sign": "-" } },
@@ -70,7 +65,6 @@
   { "id": "e_magdec_ratewarr", "source": "magistrate_decision_to_escalate", "target": "rate_of_warrant_execution", "label": "+", "data": { "sign": "+" } },
   { "id": "e_ratewarr_burdpol", "source": "rate_of_warrant_execution", "target": "burden_on_police", "label": "-", "data": { "sign": "-" } },
   { "id": "e_burdpol_poleff", "source": "burden_on_police", "target": "police_effort_in_pursuing_the_accused", "label": "-", "data": { "sign": "-" } },
-
   { "id": "e_pend_judgetime", "source": "case_pendancy", "target": "time_spent_by_judge_per_hearing", "label": "-", "data": { "sign": "-" } },
   { "id": "e_judgetime_adjfreq", "source": "time_spent_by_judge_per_hearing", "target": "adjournments_frequency", "label": "+", "data": { "sign": "+" } },
   { "id": "e_adjfreq_fees", "source": "adjournments_frequency", "target": "fees", "label": "+", "data": { "sign": "+" } },
@@ -79,55 +73,4 @@
   { "id": "e_willing_withdrawn", "source": "willingness_to_contribute", "target": "number_of_withdrawal_or_discounted_settlement", "label": "+", "data": { "sign": "+" } },
   { "id": "e_withdrawn_unrecov", "source": "number_of_withdrawal_or_discounted_settlement", "target": "rate_of_cases_closed_without_recovery", "label": "+", "data": { "sign": "+" } },
   { "id": "e_unrecov_pend", "source": "rate_of_cases_closed_without_recovery", "target": "case_pendancy", "label": "-", "data": { "sign": "-" } },
-
-  { "id": "e_addr_recdemand", "source": "accuracy_of_verified_address", "target": "likelihood_accused_receives_demand_notice", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_recdemand_unddemand", "source": "likelihood_accused_receives_demand_notice", "target": "understanding_demand_notice", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_unddemand_medout", "source": "understanding_demand_notice", "target": "use_of_mediation_outside_court", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_willpay_medout", "source": "willingness_to_pay", "target": "use_of_mediation_outside_court", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_appear_willpay", "source": "chances_accused_appears_in_court", "target": "willingness_to_pay", "label": "+", "data": { "sign": "+" } },
-
-  { "id": "e_complex_freqadj", "source": "complexity_of_the_case", "target": "frequency_of_adjournments", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_freqadj_esclevel", "source": "frequency_of_adjournments", "target": "level_of_escalation_of_the_case", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_esclevel_complex", "source": "level_of_escalation_of_the_case", "target": "complexity_of_the_case", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_refmed_freqadj", "source": "share_of_cases_referred_to_mediation", "target": "frequency_of_adjournments", "label": "-", "data": { "sign": "-" } },
-
-  { "id": "e_warr_arrests", "source": "rate_of_warrant_execution", "target": "number_of_arrests", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_warr_traced", "source": "rate_of_warrant_execution", "target": "chances_accused_is_traced", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_warr_bribes", "source": "rate_of_warrant_execution", "target": "immoral_tactics_to_delay_bribes", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_arrests_bail", "source": "number_of_arrests", "target": "rate_of_request_bail", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_bail_guarantor", "source": "rate_of_request_bail", "target": "presence_of_guarantor", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_traced_delay", "source": "chances_accused_is_traced", "target": "case_delay", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_compcomm_magdec", "source": "complainant_communication_with_police", "target": "magistrate_decision_to_escalate", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_closure_resolve", "source": "likeliness_of_closure", "target": "case_resolvement", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_cred_closure", "source": "perceived_credibility_of_accused", "target": "likeliness_of_closure", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_cred_punish", "source": "perceived_credibility_of_accused", "target": "severity_of_punishment", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_punish_prison", "source": "severity_of_punishment", "target": "share_of_accused_imprisoned", "label": "+", "data": { "sign": "+" } },
-
-  { "id": "e_legalaid_hire", "source": "availability_of_legal_aid", "target": "ability_to_hire_a_lawyer", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_fin_hire", "source": "financial_condition", "target": "ability_to_hire_a_lawyer", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_fin_evade", "source": "financial_condition", "target": "tendency_to_evade", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_fin_legalaid", "source": "financial_condition", "target": "availability_of_legal_aid", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_hire_doc", "source": "ability_to_hire_a_lawyer", "target": "ease_of_understanding_the_documenting_process", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_doc_ecourt", "source": "ease_of_understanding_the_documenting_process", "target": "access_to_e_courts", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_workload_sched", "source": "accused_workload", "target": "schedulability", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_geo_sched", "source": "geographical_constraint_of_attending_court", "target": "schedulability", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_ecourt_sched", "source": "access_to_e_courts", "target": "schedulability", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_frict_ecourt", "source": "digital_friction", "target": "access_to_e_courts", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_legalit_aware", "source": "literacy_on_legal_cases", "target": "awareness_of_consequences", "label": "+", "data": { "sign": "+" } },
-
-  /* MASTER INTERCONNECTING CONNECTIONS FROM BLUEPRINT */
-  { "id": "e_notice_filing", "source": "share_of_dishonoured_cheques_followed_by_demand_notice", "target": "share_of_dishonoured_cheques_filed_within_limitations", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_summissue_summserved", "source": "time_from_cognizance_to_summons_issued", "target": "share_of_summons_effectively_served", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_proceed_cases", "source": "shared_of_scheduled_hearings_that_proceed", "target": "caseload", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_adjourn_compounding", "source": "frequency_of_adjournments", "target": "adjournments_frequency", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_nonappear_escalate", "source": "chances_accused_appears_in_court", "target": "magistrate_decision_to_escalate", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_evade_nonappear", "source": "tendency_to_evade", "target": "chances_accused_appears_in_court", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_sched_appear", "source": "schedulability", "target": "chances_accused_appears_in_court", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_aware_perceivedacc", "source": "awareness_of_consequences", "target": "perceived_accountability", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_arrest_appear", "source": "number_of_arrests", "target": "chances_accused_appears_in_court", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_bail_hearing", "source": "presence_of_guarantor", "target": "number_of_hearing_occurs", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_resolve_pendancy", "source": "case_resolvement", "target": "case_pendancy", "label": "-", "data": { "sign": "-" } },
-  { "id": "e_prison_deterrence", "source": "share_of_accused_imprisoned", "target": "perceived_accountability", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_steno_sched", "source": "rate_of_stenographer_attendance", "target": "schedulability_of_magistrate_and_both_party_lawyers", "label": "+", "data": { "sign": "+" } },
-  { "id": "e_setdate_backlog", "source": "time_taken_to_set_next_proceeding_date", "target": "backlog", "label": "+", "data": { "sign": "+" } }
-]
+  { "id": "e_addr_recdemand", "source": "accuracy_of_verified_address", "
