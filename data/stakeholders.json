@@ -1,0 +1,50 @@
+{
+  "complainant": {
+    "name": "Complainant / Creditor",
+    "bg": "#FCE7F3",
+    "border": "#F472B6",
+    "text": "#831843"
+  },
+  "accused": {
+    "name": "Accused / Drawer",
+    "bg": "#BAE6FD",
+    "border": "#38BDF8",
+    "text": "#0C4A6E"
+  },
+  "judicial": {
+    "name": "Magistrate & Court",
+    "bg": "#FEF08A",
+    "border": "#FACC15",
+    "text": "#713F12"
+  },
+  "staff": {
+    "name": "Court Staff / Registry",
+    "bg": "#E9D5FF",
+    "border": "#C084FC",
+    "text": "#581C87"
+  },
+  "police": {
+    "name": "Police / Enforcement",
+    "bg": "#FEF9C3",
+    "border": "#FDE047",
+    "text": "#713F12"
+  },
+  "adr": {
+    "name": "Mediation & Legal Services",
+    "bg": "#BBF7D0",
+    "border": "#4ADE80",
+    "text": "#14532D"
+  },
+  "structural": {
+    "name": "Structural Friction",
+    "bg": "#0F172A",
+    "border": "#020617",
+    "text": "#FFFFFF"
+  },
+  "disposition": {
+    "name": "Final Disposition",
+    "bg": "#EA580C",
+    "border": "#C2410C",
+    "text": "#FFFFFF"
+  }
+}
